@@ -1,0 +1,11 @@
+.NavColor {
+    background: #f2f2f2;
+    color: #545454;
+}
+.LogoStyle {
+    display: flex;
+    width: 120px;
+}
+.LogoStyle img {
+    width: 100%;
+}
