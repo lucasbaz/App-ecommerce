@@ -1,6 +1,7 @@
 import './App.css';
 import './components/NavBar.css';
 import NavBar from './components/NavBar';
+import Card from './components/Cards/Card';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div>
         <p>Entrega de desafio 1 - <strong>creacion del CLI</strong> </p>
       </div>
+      <Card></Card>
     </div>
   );
 }
