@@ -3,7 +3,6 @@ import './components/NavBar.css';
 import NavBar from './components/NavBar';
 import CardItem from './components/Cards/Card';
 import { Container, Grid } from '@mui/material';
-import { Grid4x4 } from '@mui/icons-material';
 
 function App() {
   return (
@@ -15,7 +14,16 @@ function App() {
       </div>
       <Container>
         <Grid container>
-          <Grid item md={4}>
+          <Grid item md={3}>
+            <CardItem></CardItem>
+          </Grid>
+          <Grid item md={3}>
+            <CardItem></CardItem>
+          </Grid>
+          <Grid item md={3}>
+            <CardItem></CardItem>
+          </Grid>
+          <Grid item md={3}>
             <CardItem></CardItem>
           </Grid>
         </Grid>
