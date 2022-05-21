@@ -1,5 +1,6 @@
 import './App.css';
 import './components/NavBar.css';
+import './components/Cards/Card.css';
 import NavBar from './components/NavBar';
 import CardItem from './components/Cards/Card';
 import { Container, Grid } from '@mui/material';
