@@ -1,0 +1,17 @@
+.boxStyles {
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20%;
+    border: 1px;
+    border-color: blue;
+    box-shadow: black;
+}
+.boxStyles :hover {
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20%;
+    border: 1px;
+    border-color: blue;
+    box-shadow: black;
+    background-color: #f2f2f2;
+}
