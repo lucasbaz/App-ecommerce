@@ -14,7 +14,8 @@ function App() {
         <p>Entrega de desafio 1 - <strong>creacion del CLI</strong> </p>
       </div>
       <Container>
-        <CardList />
+        <CardList title="Ofertas" />
+        <CardList title="Destacados del mes" />
       </Container>
       
     </div>
