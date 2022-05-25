@@ -1,6 +1,10 @@
 .boxStyle {
+    margin: 20px;
     border-color: black;
     border: 40px;
     border-radius: 30%;
+}
 
+.image img {
+    width: 100%;
 }

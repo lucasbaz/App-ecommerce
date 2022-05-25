@@ -2,8 +2,8 @@ import './App.css';
 import './components/NavBar.css';
 import './components/Cards/Card.css';
 import NavBar from './components/NavBar';
-import CardItem from './components/Cards/Card';
-import { Container, Grid } from '@mui/material';
+import { Container} from '@mui/material';
+import CardList from './components/CardList/CardList';
 
 function App() {
   return (
@@ -14,20 +14,7 @@ function App() {
         <p>Entrega de desafio 1 - <strong>creacion del CLI</strong> </p>
       </div>
       <Container>
-        <Grid container>
-          <Grid item md={3}>
-            <CardItem></CardItem>
-          </Grid>
-          <Grid item md={3}>
-            <CardItem></CardItem>
-          </Grid>
-          <Grid item md={3}>
-            <CardItem></CardItem>
-          </Grid>
-          <Grid item md={3}>
-            <CardItem></CardItem>
-          </Grid>
-        </Grid>
+        <CardList />
       </Container>
       
     </div>

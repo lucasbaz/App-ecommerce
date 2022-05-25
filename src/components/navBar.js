@@ -4,25 +4,16 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
+//import IconButton from '@mui/material/IconButton';
+//import MenuIcon from '@mui/icons-material/Menu';
 import ButtonGroup from '@mui/material/ButtonGroup';
-import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+import CardWidget from './CartWidget/CartWidget';
 
 const NavBar = () => {
     return (
-    <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static">
+    <Box sx={{minWidht: 275 }}>
+        <AppBar position="static" sx={{minWidht: 275 }}>
           <Toolbar className='NavColor'>
-            <IconButton
-              size="large"
-              edge="start"
-              color="inherit"
-              aria-label="menu"
-              sx={{ mr: 2 }}
-            >
-              <MenuIcon />
-            </IconButton>
             <div className='LogoStyle'>
                 <img src='https://d3ugyf2ht6aenh.cloudfront.net/stores/932/712/themes/common/logo-1948825446-1549058125-829a1aa5e1198dd981db66f82719db0a1549058126-480-0.png?0' alt='nda'></img>
             </div>
@@ -33,11 +24,20 @@ const NavBar = () => {
                     <Button>CÓMO COMPRAR</Button>
                 </ButtonGroup>
             </Typography>
-            <ShoppingBasketIcon></ShoppingBasketIcon>
+            <CardWidget/>
           </Toolbar>
         </AppBar>
     </Box>
     )
 }
 
+            //<IconButton
+//size="large"
+            //  edge="start"
+              //color="inherit"
+              //aria-label="menu"
+              //sx={{ mr: 2 }}
+            //>
+            //<MenuIcon />
+            //</IconButton>
 export default NavBar
